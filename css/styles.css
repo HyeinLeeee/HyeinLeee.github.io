@@ -19,6 +19,8 @@
 }
 
 
+
+
  
 :root {
   --bs-blue: #0d6efd;
@@ -81,6 +83,11 @@
 
 /* CUSTOM */
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 .about {
 	padding-left:50px;
 	padding-right:50px;
@@ -93,6 +100,12 @@
 
 body {
 	font-family: 'CookieRun-Regular';
+}
+
+@media (min-width: 768px){
+	.container-fluid{
+	max-width: 600px;
+	}
 }
 
 /*custom end*/
