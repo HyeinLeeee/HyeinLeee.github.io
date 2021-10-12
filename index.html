@@ -9,6 +9,10 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+<!-- 		<script src="js/jquery-3.6.0.min.js"></script> -->
+		
+
+		
     </head>
 	
 	
@@ -19,9 +23,9 @@
     <a class="nav-link active" aria-current="page" href="index.html" data-transition="fade">OLLIT</a>
   </li>
   <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" href="exh.html" data-transition="fade">EXHIBITION</a>
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" href="exh_solo.html" data-transition="fade">EXHIBITION</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="exh.html" style="text-align:center;" data-transition="fade">SOLO</a></li>
+      <li><a class="dropdown-item" href="exh_solo.html" style="text-align:center;" data-transition="fade">SOLO</a></li>
       <li><a class="dropdown-item" href="#" style="text-align:center;" data-transition="fade">GROUP</a></li>
     </ul>
   </li>
@@ -58,8 +62,36 @@
 		&nbsp;일러스트레이터<br>
 		<p class="fw-bold" style="font-size: 40px;">OLLIT</p>
 		
+		
+
+
+			
+		
+		
+		
 		<div class="card border-light mb-3" style="...">
-		<img src="img/front.jpg" class="card-img-top" alt="...">
+		
+<!-- Button trigger modal -->
+<button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border:none; background:none;">
+<img src="img/front.jpg" alt="">
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+<!--       <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+      <div class="modal-body">
+        <img src="img/front.jpg" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+		
+		
+		<!-- <img src="img/front.jpg" class="card-img-top" alt="..."> -->
 		<div class="card-body">
 			<p></p>
 			<p class="card-text text-start">
@@ -290,8 +322,8 @@
 		
 		
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+        <footer class="py-5 bg-white">
+            <div class="container px-4"><p class="m-0 text-center text-muted">Copyright 2021. OLLIT all rights reserved.</p></div>
         </footer>
 		
 		
@@ -301,5 +333,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
+
     </body>
 </html>
