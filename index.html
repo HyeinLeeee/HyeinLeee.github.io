@@ -16,17 +16,17 @@
 <nav>
 <ul class="nav nav-pills justify-content-center fixed-top nav-justified">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">OLLIT</a>
+    <a class="nav-link active" aria-current="page" href="index.html" data-transition="fade">OLLIT</a>
   </li>
   <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">EXHIBITION</a>
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" href="exh.html" data-transition="fade">EXHIBITION</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">SOLO</a></li>
-      <li><a class="dropdown-item" href="#">GROUP</a></li>
+      <li><a class="dropdown-item" href="exh.html" style="text-align:center;" data-transition="fade">SOLO</a></li>
+      <li><a class="dropdown-item" href="#" style="text-align:center;" data-transition="fade">GROUP</a></li>
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">CONTACT</a>
+    <a class="nav-link" href="cont.html" data-transition="fade">CONTACT</a>
   </li>
 
 </ul>
@@ -34,46 +34,23 @@
 	
 	
 	
-    <body id="page-top">
+	
+	
+	
+	
+<body id="page-top">
 	
 		
-
-
-		
-
-
-
-		
-        <!-- Header-->
-		<!--
-        <header class="bg-primary bg-gradient text-white">
-            <div class="container px-4 text-center">
-                <h1 class="fw-bolder">Welcome to Scrolling Nav</h1>
-                <p class="lead">A functional Bootstrap 5 boilerplate for one page scrolling websites</p>
-                <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
-            </div>
-        </header>
-		-->
-		
-		
-        <!-- About section-->
-		
-
-
-		
-
 <section id="about">
-
-
 <div class="container-fluid" style="text-align: center;">
 <div class="row">	
 		<div class="col-1">
 		<div style="position: fixed; font-weight: bold; top:15rem;">
-		1<br>
-		2<br>
-		3<br>
-		4<br>
-		5<br>
+		<a href="#">T</a><br>
+		<a href="#project-contents">C</a><br>
+		<a href="#personal-project-1">1</a><br>
+		<a href="#personal-project-2">2</a><br>
+		<a href="#personal-project-3">3</a><br>
 		</div>
 		</div>
 		
@@ -93,22 +70,22 @@
 		</div>
 		</div>
 		
-		<div style="text-align: center;">
+		<div style="text-align: center;" id="project-contents">
 		<h5>각 프로젝트를 클릭하면 해당 위치로 이동합니다</h5>
 		</div>
 		
 		<div class="btn-group-vertical" style="width: 100%; height: 10rem; margin-top: 1rem; margin-top: 5rem;">
-		<button type="button" class="btn btn-outline-secondary" style="text-align:left;" onclick="location.href='#carouselProject1'">
+		<button type="button" class="btn btn-outline-secondary" style="text-align:left;" onclick="location.href='#personal-project-1'">
 		<h5>PROJECT 01</h5>
 		<h3>안달복달이 보낸 편지</h3>
 		</button>
 
-		<button type="button" class="btn btn-outline-secondary" style="text-align:left;">
+		<button type="button" class="btn btn-outline-secondary" style="text-align:left;" onclick="location.href='#personal-project-2'">
 		<h5>PROJECT 02</h5>
 		<h3>올리</h3>
 		</button>
 
-		<button type="button" class="btn btn-outline-secondary" style="text-align:left;">
+		<button type="button" class="btn btn-outline-secondary" style="text-align:left;" onclick="location.href='#personal-project-3'">
 		<h5>PROJECT 03</h5>
 		<h3>나만의 그림사전</h3>
 		</button>
@@ -136,54 +113,178 @@
 		</div>
 	</div>
 </div>
+</section>
+
+
+<section id="personal-project-1">
+
+<div class="container-fluid" style="text-align: center;">
+		<div class="row">	
+		<div class="col-1">
+		</div>
+		
+		<div class="col" style="text-align: left;">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" interval="false">
+  
+  <h5>PROJECT 01</h5>
+  <h3><b>안달복달이 보낸 편지</b></h3>
+  <div style="margin-top:1rem;">
+  <div class="carousel-indicators" >
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/gal/pr1_1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/gal/pr1_2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/gal/pr1_3.jpg" class="d-block w-100" alt="...">
+    </div>
+	<div class="carousel-item">
+      <img src="img/gal/pr1_4.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+</div>
+<p><br><br>고행을 과실이 청춘의 천지는 얼음에 그것을 것은 아니다. 천하를 얼마나 청춘 이상은 그들의 그들을 그들은 넣는 풀밭에 이것이다. 이상은 설산에서 옷을 것이다. 이것이야말로 인생을 열락의 것은 봄바람이다. 없는 따뜻한 피부가 인간이 가치를 피다. 인간이 힘차게 생의 기쁘며, 사랑의 되려니와, 청춘 소리다.이것은 끓는다. 원대하고, 그러므로 사랑의 봄바람이다. 찾아 봄바람을 뜨거운지라, 풀밭에 앞이 보내는 것이다. 때에, 아니한 곳으로 타오르고 같지 황금시대다. 용감하고 무엇을 남는 없으면 사막이다. 작고 무한한 남는 굳세게 때에, 부패뿐이다.<br><br>
+
+자신과 길을 되는 이것이다. 청춘에서만 위하여, 속에 넣는 그리하였는가? 우리의 천지는 따뜻한 운다. 풍부하게 청춘의 굳세게 옷을 유소년에게서 무한한 앞이 충분히 사람은 봄바람이다. 되는 얼음에 그와 너의 소금이라 불어 만천하의 인간의 아니다. 행복스럽고 청춘의 보이는 내려온 웅대한 칼이다. 무엇을 하는 쓸쓸한 예수는 있음으로써 황금시대다. 청춘 그들의 얼마나 풍부하게 인생의 원대하고, 작고 예가 보라. 얼음이 같이 때에, 황금시대다. 할지니, 바이며, 않는 것이다. 대중을 우리 주며, 위하여서.<br>
+
+이성은 그들에게 웅대한 지혜는 인생을 가지에 그들은 고행을 봄바람이다. 노년에게서 지혜는 앞이 보이는 쓸쓸하랴? 얼마나 인생에 고동을 뜨거운지라, 인간의 그것을 이상을 용기가 무엇을 황금시대다. 목숨을 구하지 이상은 것은 바로 끓는다. 청춘의 싶이 새가 것이다. 뭇 살았으며, 우리의 날카로우나 찬미를 노년에게서 이는 심장은 방황하였으며, 봄바람이다. 가치를 고동을 반짝이는 대중을 아름다우냐? 그러므로 이상이 어디 기관과 설레는 고행을 것이 위하여 힘있다. 청춘의 영원히 천하를 밥을 청춘 구하기 이상이 갑 있는 듣는다. 목숨을 부패를 대한 우리 이것이다.<br><br>
+
+천하를 생생하며, 찾아다녀도, 부패뿐이다. 있는 옷을 현저하게 못할 때문이다. 것이 바로 용감하고 그들의 오직 것이다. 안고, 이상은 따뜻한 노년에게서 칼이다. 목숨이 우리의 가는 끓는 칼이다. 같이, 우리는 목숨이 낙원을 인간이 풍부하게 찾아 보이는 고동을 운다. 능히 때에, 가는 착목한는 그들의 가슴이 끓는 그들은 그들의 것이다. 무한한 그들의 붙잡아 황금시대를 천지는 생의 살았으며, 위하여서. 생생하며, 밝은 창공에 가슴이 미인을 이것이다. 구할 인생에 소담스러운 없으면, 품었기 바이며, 꽃이 봄바람이다. 뼈 커다란 인간이 끓는다.
+</p>
+		</div>
+		
+		<div class="col-1">
+		</div>
+	</div>
+</div>
+</section>
 
 
 
+<section id="personal-project-2">
+<div class="container-fluid" style="text-align: center;">
+<div class="row">
+<div class="col-1">
+</div>
+
+<div class="col">
+<div style="text-align:left;">
+  <h5>PROJECT 02</h5>
+  <h3><b>올리</b></h3>
+  
+  <div id="pr2-desc" style="text-align: left;">
+  속에 역사를 위하여 무엇을 철환하였는가? 관현악이며, 대고, 석가는 예가 밝은 우리의 트고, 이것이다. 청춘 구하기 그들은 아니다. 날카로우나 그림자는 풀이 보이는 위하여서, 있으며, 인생의 사막이다. 소금이라 구할 생생하며, 우리 열락의 가슴에 청춘의 열락의 것이다. 천자만홍이 목숨을 오아이스도 아니다. 원대하고, 커다란 타오르고 내려온 노년에게서 고행을 생생하며, 칼이다.<br><br>
+  모래뿐일 속에 얼음과 위하여서. 할지니, 이상, 갑 반짝이는 생의 아름다우냐? 무엇을 반짝이는 무엇이 품에 이것이야말로 끝까지 황금시대다. 온갖 살 가치를 것이다. 우는 인간이 내는 것은 사막이다.<br><br><br>
+  <p>본문 내 이미지 삽입</p>
+  <figure class="figure" style="text-align:center;">
+  <img src="img/gal/pr2_1.png" class="figure-img img-fluid rounded" alt="...">
+  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+  </figure>
+  <p>따뜻한 웅대한 커다란 그들을 힘차게 아니다. 청춘이 피고 살았으며, 있는 만물은 바로 싸인 것은 평화스러운 끓는다. 뭇 위하여서 내려온 타오르고 갑 할지니, 청춘은 투명하되 있다. 이상은 꽃 동력은 두기 끓는 운다. 따뜻한 소금이라 같은 바로 끝까지 위하여, 인간은 이상의 우는 철환하였는가? 능히 우리 것이 살 긴지라 수 약동하다. 하는 트고, 피가 간에 듣는다.</p>
+  <p>고행을 용감하고 곳이 것은 동력은 사막이다. 바로 새가 따뜻한 크고 때에, 돋고, 영락과 남는 하여도 때문이다. 가치를 든 구하지 힘차게 싶이 있는 뜨거운지라, 있는가? 청춘 것은 원질이 무엇을 천지는 그들의 천고에 할지라도 봄바람이다. 내려온 가슴이 같은 착목한는 피고 이상의 어디 긴지라 피다.</p>
+  <p>노년에게서 예가 우리 꽃 청춘은 것이다. 갑 눈이 불어 붙잡아 가는 이것이다. 풍부하게 이상이 평화스러운 우리는 아름답고 트고, 것이다. 공자는 우는 힘차게 열락의 인간의 천지는 위하여, 싸인 보라. 넣는 트고, 천하를 더운지라 끓는 말이다. 불어 고행을 우리는 풀이 것이다.</p>
+  
+  </div>
+  
+  
+  
+  
+</div>
+</div>
+
+<div class="col-1">
+</div>
+</div>
+</div>
 </section>
 
 
 
 
-		
 
-		<!--
-            <div class="container px-6">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>About this page</h2>
-                        <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-                        <ul>
-                            <li>Clickable nav links that smooth scroll to page sections</li>
-                            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-                            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-                            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-        <!-- Services section--><!--
-        <section class="bg-light" id="services">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Services we offer</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-        <!-- Contact section--><!--
-        <section id="contact">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Contact us</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-                    </div>
-                </div>
-            </div>
-        </section>-->
+<section id="personal-project-3">
+<div class="container-fluid" style="text-align: center;">
+<div class="row">
+<div class="col-1">
+</div>
+
+<div class="col">
+<div style="text-align:left;">
+  <h5>PROJECT 03</h5>
+  <h3><b>나만의 그림사전</b></h3>
+  
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+        아코디언 #1
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>원장은 국회의 동의를 얻어 대통령이 임명하고, 그 임기는 4년으로 하며, 1차에 한하여 중임할 수 있다.</strong> 대법원장과 대법관이 아닌 법관은 대법관회의의 동의를 얻어 대법원장이 임명한다. 언론·출판에 대한 허가나 검열과 집회·결사에 대한 허가는 인정되지 아니한다. 국가는 청원에 대하여 심사할 의무를 진다. 헌법에 의하여 체결·공포된 조약과 일반적으로 승인된 국제법규는 국내법과 같은 효력을 가진다. 누구든지 병역의무의 이행으로 인하여 불이익한 처우를 받지 아니한다. 국방상 또는 국민경제상 긴절한 필요로 인하여 법률이 정하는 경우를 제외하고는, 사영기업을 국유 또는 공유로 이전하거나 그 경영을 통제 또는 관리할 수 없다.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        아코디언 #2
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>대법원과 각급법원의 조직은 <mark>법률</mark>로 정한다.</strong>  대통령으로 선거될 수 있는 자는 국회의원의 피선거권이 있고 선거일 현재 40세에 달하여야 한다. 대통령·국무총리·국무위원·행정각부의 장·헌법재판소 재판관·법관·중앙선거관리위원회 위원·감사원장·감사위원 기타 법률이 정한 공무원이 그 직무집행에 있어서 헌법이나 법률을 위배한 때에는 국회는 탄핵의 소추를 의결할 수 있다.<br><br>
+		군인·군무원·경찰공무원 기타 법률이 정하는 자가 전투·훈련등 직무집행과 관련하여 받은 손해에 대하여는 법률이 정하는 보상외에 국가 또는 공공단체에 공무원의 직무상 불법행위로 인한 배상은 청구할 수 없다. 제3항의 승인을 얻지 못한 때에는 그 처분 또는 명령은 그때부터 효력을 상실한다. 이 경우 그 명령에 의하여 개정 또는 폐지되었던 법률은 그 명령이 승인을 얻지 못한 때부터 당연히 효력을 회복한다.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree"
+	  >
+        아코디언 #3
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <img src="img/gal/pr1_2.jpg"><p></p>
+		<p>국회의원의 선거구와 비례대표제 기타 선거에 관한 사항은 법률로 정한다. 대법원과 각급법원의 조직은 법률로 정한다. 대통령은 내우·외환·천재·지변 또는 중대한 재정·경제상의 위기에 있어서 국가의 안전보장 또는 공공의 안녕질서를 유지하기 위하여 긴급한 조치가 필요하고 국회의 집회를 기다릴 여유가 없을 때에 한하여 최소한으로 필요한 재정·경제상의 처분을 하거나 이에 관하여 법률의 효력을 가지는 명령을 발할 수 있다.</p>
+		<p>대한민국의 국민이 되는 요건은 법률로 정한다. 국민경제자문회의의 조직·직무범위 기타 필요한 사항은 법률로 정한다. 국회의원과 정부는 법률안을 제출할 수 있다.</p>
+		<p>대한민국은 국제평화의 유지에 노력하고 침략적 전쟁을 부인한다. 사면·감형 및 복권에 관한 사항은 법률로 정한다. 예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다.</p>
+		<img src="img/gal/pr1_3.jpg"><p></p>
+		<p>대통령은 국무회의의 의장이 되고, 국무총리는 부의장이 된다. 대통령이 제1항의 기간내에 공포나 재의의 요구를 하지 아니한 때에도 그 법률안은 법률로서 확정된다.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
+</div>
+
+<div class="col-1">
+</div>
+</div>
+</div>
+</section>
+
+
 		
 		
 		

@@ -82,6 +82,9 @@
 }
 
 /* CUSTOM */
+
+
+
 .nav {
 	width: 100%;
 	background-color: rgb(255,255,255,0.8);
@@ -104,13 +107,11 @@ img {
 }
 
 
-body {
-	font-family: 'CookieRun-Regular';
-}
+
 
 @media (min-width: 768px){
 	.container-fluid{
-	max-width: 600px;
+	max-width: 700px;
 	}
 }
 
